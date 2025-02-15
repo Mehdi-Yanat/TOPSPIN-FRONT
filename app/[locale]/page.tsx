@@ -9,18 +9,6 @@ import { getTranslator, unstable_setRequestLocale } from "next-intl/server";
 import InfoSection from "../components/infoSection/InfoSection";
 import FlickityViewPortSection from "../components/professionalPlayersSection/flickityViewPortSection";
 import NavBar from "../components/navbar/NavBar";
-import { useQuery } from "@tanstack/react-query";
-import {
-  SectionData,
-  TennisJsonType,
-  TranslatedContent,
-} from "../utils/interface";
-import { useQuery } from "@tanstack/react-query";
-import {
-  SectionData,
-  TennisJsonType,
-  TranslatedContent,
-} from "../utils/interface";
 
 export async function generateMetadata({
   params: { locale },
@@ -104,81 +92,82 @@ function PlayersSection({ data }: { data: any }) {
   );
 }
 
-function CoachesSection({
+function CoachesSectionContainer({
   data,
   transaltedData,
 }: {
   data: any;
   transaltedData: any;
 }) {
-function InfoSectionWithIndex({
-  data,
-  locale,
-  index,
-}: {
-  data: any;
-  locale: any;
-  index: number;
-}) {
-  const t = useTranslations("HomePage");
-  return (
-    <InfoSection
-      data={data.homepage.infoSection[index]}
-      rowReverser={false}
-      maxWidthH3={index === 2 ? false : true}
-      translatedContent={t.raw("infoSection")[index]}
-      locale={locale}
-    />
-  );
-}
+  function InfoSectionWithIndex({
+    data,
+    locale,
+    index,
+  }: {
+    data: any;
+    locale: any;
+    index: number;
+  }) {
+    const t = useTranslations("HomePage");
+    return (
+      <InfoSection
+        data={data.homepage.infoSection[index]}
+        rowReverser={false}
+        maxWidthH3={index === 2 ? false : true}
+        translatedContent={t.raw("infoSection")[index]}
+        locale={locale}
+      />
+    );
+  }
 
-function InfoSectionWithIndexAndYoutube({
-  data,
-  locale,
-  index,
-}: {
-  data: any;
-  locale: any;
-  index: number;
-}) {
-  const t = useTranslations("HomePage");
-  return (
-    <InfoSection
-      data={data.homepage["infoSection"][index]}
-      rowReverser={false}
-      maxWidthH3={true}
-      translatedContent={t.raw("infoSection")[index]}
-      locale={locale}
-      isYoutube={true}
-    />
-  );
-}
+  function InfoSectionWithIndexAndYoutube({
+    data,
+    locale,
+    index,
+  }: {
+    data: any;
+    locale: any;
+    index: number;
+  }) {
+    const t = useTranslations("HomePage");
+    return (
+      <InfoSection
+        data={data.homepage["infoSection"][index]}
+        rowReverser={false}
+        maxWidthH3={true}
+        translatedContent={t.raw("infoSection")[index]}
+        locale={locale}
+        isYoutube={true}
+      />
+    );
+  }
 
-function Quote_() {
-  const t = useTranslations("HomePage");
+  function Quote_() {
+    const t = useTranslations("HomePage");
 
-  return <Quote translatedContent={t("quote")} />;
-}
+    return <Quote translatedContent={t("quote")} />;
+  }
 
-function Pages() {
-  const t = useTranslations("HomePage");
+  function Pages() {
+    const t = useTranslations("HomePage");
 
-  return <FlickityViewPort data={t.raw("flickityView")} />;
-}
+    return <FlickityViewPort data={t.raw("flickityView")} />;
+  }
 
-function PlayersSection({ data }: { data: any }) {
-  const t = useTranslations("HomePage");
+  function PlayersSection({ data }: { data: any }) {
+    const t = useTranslations("HomePage");
 
-  return (
-    <FlickityViewPortSection
-      type="players"
-      H2={t("proPlayerSection")}
-      data={data.homepage.players}
-      leftButton={"leftButtonPlayers"}
-      rightButton={"rightButtonPlayers"}
-      translatedContent={t.raw("coaches")}
-    />
-  );
+    return (
+      <FlickityViewPortSection
+        type="players"
+        H2={t("proPlayerSection")}
+        data={data.homepage.players}
+        leftButton={"leftButtonPlayers"}
+        rightButton={"rightButtonPlayers"}
+        translatedContent={t.raw("coaches")}
+      />
+    );
+  }
 }
 
 function CoachesSection({
@@ -214,43 +203,9 @@ function SponsorsSection() {
   return <Sponsors translatedContent={t.raw("sponsors")} />;
 }
 
-export default async function Home({ params }: { params: any }) {
+
+function Home({ params }: { params: any }) {
   unstable_setRequestLocale(params.locale);
-
-  // Get trainers' data
-  /*
-  const query = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/trainers`, {
-    next: { revalidate: 3600 },
-  });
-  const response = await query.json();
-
-  const trainersSectionData: SectionData[] = response.trainers.map((t: any) => {
-    const data: SectionData = {
-      h3: t.firstName + " " + t.lastName,
-      Image: {
-        alt: t.firstName + " " + t.lastName,
-        height: 1223,
-        width: 978,
-        src: t.imageUrl,
-      },
-      information: t.informationEnglish,
-      id: t.id,
-    };
-    return data;
-  });
-
-  const trainersSectionTranslatedData: TranslatedContent[] =
-    response.trainers.map((t: any) => {
-      if (params.locale == "tr")
-        return {
-          information: t.informationTurkish,
-        };
-      else
-        return {
-          information: t.informationEnglish,
-        };
-    });
-    */
 
   return (
     <>
@@ -284,6 +239,8 @@ export default async function Home({ params }: { params: any }) {
       <WhatsappSection />
       <SponsorsSection />
       <BannerImage width={1600} height={810} src="/images/bannerFooter(update).jpeg" />
-      </>
+    </>
   );
 }
+
+export default Home;
