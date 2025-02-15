@@ -20,13 +20,13 @@ function Reservation({ tCanKaya }: { tCanKaya: TcanKaya }) {
       <div className={classes.containerBox}>
         <Image
           loading="lazy"
-          width={4096}
-          height={2421}
+          width={900}
+          height={1600}
           alt="Topspin Cankaya"
-          src={"/images/aboutus.jpeg"}
+          src={"/images/cankaya.jfif"}
         />
         <div>
-          <h2>TopSpin Çankaya</h2>
+          <h2>Topspin Çankaya</h2>
 
           <Link
             className="button"
@@ -42,10 +42,10 @@ function Reservation({ tCanKaya }: { tCanKaya: TcanKaya }) {
           width={5472}
           height={3078}
           alt="Topspin Cankaya"
-          src={"/images/footerBanner.JPG"}
+          src={"/images/resort1.jpeg"}
         />
         <div>
-          <h2>TopSpin Bilkent</h2>
+          <h2>Topspin Bilkent</h2>
           <Link className="button" href={"https://sibertenis.com/TOPSPIN"}>
             {tCanKaya.bilkent.button}
           </Link>

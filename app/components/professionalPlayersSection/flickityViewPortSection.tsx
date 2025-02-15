@@ -15,6 +15,12 @@ interface SectionData {
     alt: string;
   };
   h3: string;
+  information?: string;
+  points?: string;
+  university?: string;
+}
+interface TranslatedContent {
+  information?: string;
 }
 
 function FlickityViewPortSection({
@@ -22,11 +28,15 @@ function FlickityViewPortSection({
   H2,
   leftButton,
   rightButton,
+  translatedContent,
+  type,
 }: {
   leftButton: string;
   rightButton: string;
   data: SectionData[];
+  translatedContent: TranslatedContent[];
   H2: string;
+  type: string;
 }) {
   return (
     <section className={classes.flickityViewSection}>
@@ -56,7 +66,6 @@ function FlickityViewPortSection({
           className={classes.mainCarousel}
           modules={[Navigation]}
           centeredSlides
-          centeredSlidesBounds
           initialSlide={data.length / 2}
           navigation={{
             nextEl: `#${rightButton}`,
@@ -64,16 +73,22 @@ function FlickityViewPortSection({
           }}
           breakpoints={{
             1440: {
-              loopedSlides: data.length / 2,
+              loopedSlides:data.length / 3,
             },
           }}
           loop
         >
-          {data.map((el) => (
-            <SwiperSlide key={el.id} className={classes.carouselCell}>
-              <Cell data={el} />
-            </SwiperSlide>
-          ))}
+          {data.map((el, index) => {
+            return (
+              <SwiperSlide key={el.id} className={classes.carouselCell}>
+                <Cell
+                  data={el}
+                  information={translatedContent[index]?.information}
+                  type={type}
+                />
+              </SwiperSlide>
+            );
+          })}
         </Swiper>
       </div>
     </section>

@@ -6,7 +6,7 @@
           "width": 5472,
           "height": 3078,
           "alt": "A HUMAN & PERFORMING ENVIRONMENT",
-          "src": "/images/footerBanner.JPG"
+          "src": "/images/resort1.jpeg"
         },
         "Link": {
           "url": "/academy"
@@ -67,7 +67,9 @@
           "height": 678,
           "alt": "Deniz Dilek "
         },
-        "h3": "Deniz Dilek"
+        "h3": "Deniz Dilek",
+        "points": "ITF Junior & National Player",
+        "university": ""
       },
       {
         "id": 2,
@@ -77,7 +79,8 @@
           "height": 683,
           "alt": "Deniz Gürsoy "
         },
-        "h3": "Deniz Gürsoy"
+        "h3": "Deniz Gürsoy",
+        "points": "ITF Junior Player"
       },
       {
         "id": 3,
@@ -87,7 +90,9 @@
           "height": 789,
           "alt": "Tuna Nergisoğlu"
         },
-        "h3": "Tuna Nergisoğlu"
+        "h3": "Tuna Nergisoğlu",
+        "points": "ITF Junior Player",
+        "university": "Long Island Unıversity"
       },
       {
         "id": 4,
@@ -97,7 +102,8 @@
           "height": 1024,
           "alt": "Lara Eroğlu"
         },
-        "h3": "Lara Eroğlu"
+        "h3": "Lara Eroğlu",
+        "points": "ITF Junior Player"
       },
       {
         "id": 5,
@@ -107,17 +113,20 @@
           "height": 477,
           "alt": "Deniz Okyay"
         },
-        "h3": "Deniz Okyay"
+        "h3": "Deniz Okyay",
+        "points": "ITF Junior Player"
       },
       {
         "id": 6,
         "Image": {
-          "src": "/images/players/ENES KOÇU.png",
+          "src": "/images/players/ENES KOÇU.jpg",
           "width": 513,
           "height": 477,
           "alt": "Enes Koçu"
         },
-        "h3": "Enes Koçu"
+        "h3": "Enes Koçu",
+        "points": "ITF Junior Player",
+        "university": "Saint Leo Unıversity"
       },
       {
         "id": 7,
@@ -127,7 +136,9 @@
           "height": 420,
           "alt": "Kerem Özlale "
         },
-        "h3": "Kerem Özlale"
+        "h3": "Kerem Özlale",
+        "points": "ITF Junior & National Player ",
+        "university": "Boston Collage University"
       },
       {
         "id": 8,
@@ -137,7 +148,8 @@
           "height": 420,
           "alt": "Kaan Işık Koşaner "
         },
-        "h3": "Kaan Işık Koşaner"
+        "h3": "Kaan Işık Koşaner",
+        "points": "ITF Junior & National Player "
       },
       {
         "id": 9,
@@ -147,7 +159,8 @@
           "height": 420,
           "alt": "Deniz Dilek "
         },
-        "h3": "Deniz Dilek"
+        "h3": "Deniz Dilek",
+        "points": "ITF Junior & National Player"
       },
 
       {
@@ -158,7 +171,8 @@
           "height": 420,
           "alt": "Mehmet Onur Turgut "
         },
-        "h3": "Mehmet Onur Turgut"
+        "h3": "Mehmet Onur Turgut",
+        "points": "ITF Junior Player"
       },
       {
         "id": 11,
@@ -168,17 +182,19 @@
           "height": 420,
           "alt": "Defne Aydemir "
         },
-        "h3": "Defne Aydemir"
+        "h3": "Defne Aydemir",
+        "points": "ITF Junior Player"
       },
       {
         "id": 12,
         "Image": {
-          "src": "/images/players/Nisan Can.jpeg",
+          "src": "/images/players/Nisan Can.jpg",
           "width": 821,
           "height": 1024,
           "alt": "Nisan Can "
         },
-        "h3": "Nisan Can"
+        "h3": "Nisan Can",
+        "points": "ITF Junior & National Player "
       },
       {
         "id": 13,
@@ -188,7 +204,8 @@
           "height": 3360,
           "alt": "Deniz Dilek "
         },
-        "h3": "Deniz Dilek"
+        "h3": "Deniz Dilek",
+        "points": "ITF Junior & National Player"
       },
       {
         "id": 14,
@@ -198,7 +215,8 @@
           "height": 683,
           "alt": "Deniz Gürsoy "
         },
-        "h3": "Deniz Gürsoy"
+        "h3": "Deniz Gürsoy",
+        "points": "ITF Junior Player"
       },
       {
         "id": 15,
@@ -208,7 +226,9 @@
           "height": 789,
           "alt": "Tuna Nergisoğlu"
         },
-        "h3": "Tuna Nergisoğlu"
+        "h3": "Tuna Nergisoğlu",
+        "points": "ITF Junior Player",
+        "university": "Long Island Unıversity"
       },
       {
         "id": 16,
@@ -218,17 +238,20 @@
           "height": 477,
           "alt": "Deniz Okyay"
         },
-        "h3": "Deniz Okyay"
+        "h3": "Deniz Okyay",
+        "points": "ITF Junior Player"
       },
       {
         "id": 17,
         "Image": {
-          "src": "/images/players/ENES KOÇU.png",
+          "src": "/images/players/ENES KOÇU.jpg",
           "width": 513,
           "height": 477,
           "alt": "Enes Koçu"
         },
-        "h3": "Enes Koçu"
+        "h3": "Enes Koçu",
+        "points": "ITF Junior Player",
+        "university": "Saint Leo Unıversity"
       },
       {
         "id": 18,
@@ -238,7 +261,9 @@
           "height": 420,
           "alt": "Kerem Özlale "
         },
-        "h3": "Kerem Özlale"
+        "h3": "Kerem Özlale",
+        "points": "ITF Junior & National Player",
+        "university": "Boston Collage University"
       },
       {
         "id": 19,
@@ -248,7 +273,8 @@
           "height": 420,
           "alt": "Kaan Işık Koşaner "
         },
-        "h3": "Kaan Işık Koşaner"
+        "h3": "Kaan Işık Koşaner",
+        "points": "ITF Junior & National Player"
       },
       {
         "id": 20,
@@ -258,7 +284,8 @@
           "height": 420,
           "alt": "Deniz Dilek "
         },
-        "h3": "Deniz Dilek"
+        "h3": "Deniz Dilek",
+        "points": "ITF Junior & National Player"
       },
       {
         "id": 21,
@@ -268,7 +295,8 @@
           "height": 420,
           "alt": "Mehmet Onur Turgut "
         },
-        "h3": "Mehmet Onur Turgut"
+        "h3": "Mehmet Onur Turgut",
+        "points": "ITF Junior Player"
       },
       {
         "id": 22,
@@ -278,7 +306,8 @@
           "height": 420,
           "alt": "Defne Aydemir "
         },
-        "h3": "Defne Aydemir"
+        "h3": "Defne Aydemir",
+        "points": "ITF Junior Player"
       },
       {
         "id": 23,
@@ -288,7 +317,8 @@
           "height": 420,
           "alt": "Nisan Can "
         },
-        "h3": "Nisan Can"
+        "h3": "Nisan Can",
+        "points": "ITF Junior & National Player "
       },
 
       {
@@ -299,17 +329,20 @@
           "height": 477,
           "alt": "Deniz Okyay"
         },
-        "h3": "Deniz Okyay"
+        "h3": "Deniz Okyay",
+        "points": "ITF Junior Player"
       },
       {
         "id": 25,
         "Image": {
-          "src": "/images/players/ENES KOÇU.png",
+          "src": "/images/players/ENES KOÇU.jpg",
           "width": 513,
           "height": 477,
           "alt": "Enes Koçu"
         },
-        "h3": "Enes Koçu"
+        "h3": "Enes Koçu",
+        "points": "ITF Junior Player",
+        "university": "Saint Leo Unıversity"
       },
       {
         "id": 26,
@@ -319,7 +352,30 @@
           "height": 420,
           "alt": "Kaan Işık Koşaner "
         },
-        "h3": "Kaan Işık Koşaner"
+        "h3": "Kaan Işık Koşaner",
+        "points": "ITF Junior & National Player "
+      },
+      {
+        "id": 27,
+        "Image": {
+          "src": "/images/players/meltem turhan.jpg",
+          "width": 280,
+          "height": 420,
+          "alt": "Meltem Turhan "
+        },
+        "h3": "Meltem Turhan",
+        "points": "ITF Junior Player"
+      },
+      {
+        "id": 28,
+        "Image": {
+          "src": "/images/players/Ruben Gosposjınacki.jpg",
+          "width": 280,
+          "height": 420,
+          "alt": "Ruben Gosposjınacki "
+        },
+        "h3": "Ruben Gosposjınacki",
+        "points": "ITF Junior Player"
       }
     ],
     "coaches": [
@@ -331,7 +387,8 @@
           "height": 1223,
           "alt": "Arda Uygungül"
         },
-        "h3": "Arda Uygungül"
+        "h3": "Arda Uygungül",
+        "information": " "
       },
       {
         "id": 2,
@@ -341,7 +398,8 @@
           "height": 1223,
           "alt": "Gökhan Kırtıl"
         },
-        "h3": "Gökhan Kırtıl"
+        "h3": "Gökhan Kırtıl",
+        "information": "3.Kademe"
       },
       {
         "id": 3,
@@ -351,7 +409,8 @@
           "height": 1223,
           "alt": "Miran Demir"
         },
-        "h3": "Miran Demir"
+        "h3": "Miran Demir",
+        "information": " "
       },
       {
         "id": 4,
@@ -361,7 +420,8 @@
           "height": 1223,
           "alt": "Melih Kalaycı"
         },
-        "h3": "Melih Kalaycı"
+        "h3": "Melih Kalaycı",
+        "information": " "
       },
       {
         "id": 5,
@@ -371,7 +431,8 @@
           "height": 1223,
           "alt": "Serhat Eroğlu"
         },
-        "h3": "Serhat Eroğlu"
+        "h3": "Serhat Eroğlu",
+        "information": " "
       },
       {
         "id": 6,
@@ -381,7 +442,8 @@
           "height": 1223,
           "alt": "Hatice Güneş"
         },
-        "h3": "Hatice Güneş"
+        "h3": "Hatice Güneş",
+        "information": "3.Kademe"
       },
       {
         "id": 9,
@@ -391,7 +453,8 @@
           "height": 1223,
           "alt": "Ümit Aslan"
         },
-        "h3": "Ümit Aslan"
+        "h3": "Ümit Aslan",
+        "information": " 3.Kademe"
       },
       {
         "id": 11,
@@ -401,7 +464,8 @@
           "height": 1223,
           "alt": "Gözde Kocakaya"
         },
-        "h3": "Gözde Kocakaya"
+        "h3": "Gözde Kocakaya",
+        "information": "3.Kademe "
       },
       {
         "id": 10,
@@ -411,7 +475,8 @@
           "height": 1223,
           "alt": "Mert Gerçeker"
         },
-        "h3": "Mert Gerçeker"
+        "h3": "Mert Gerçeker",
+        "information": "3.Kademe"
       },
       {
         "id": 7,
@@ -421,7 +486,8 @@
           "height": 1223,
           "alt": "Miraç Gölcür"
         },
-        "h3": "Miraç Gölcür"
+        "h3": "Miraç Gölcür",
+        "information": " "
       },
       {
         "id": 8,
@@ -431,7 +497,8 @@
           "height": 1223,
           "alt": "Yunus Emre Çiçen"
         },
-        "h3": "Yunus Emre Çiçen"
+        "h3": "Yunus Emre Çiçen",
+        "information": " "
       },
       {
         "id": 12,
@@ -441,7 +508,8 @@
           "height": 1223,
           "alt": "Tugay Sabancı"
         },
-        "h3": "Tugay Sabancı"
+        "h3": "Tugay Sabancı",
+        "information": " "
       },
       {
         "id": 13,
@@ -451,7 +519,8 @@
           "height": 1223,
           "alt": "Demet Akmandor"
         },
-        "h3": "Demet Akmandor"
+        "h3": "Demet Akmandor",
+        "information": " "
       },
       {
         "id": 14,
@@ -461,7 +530,8 @@
           "height": 1223,
           "alt": "Murat Uyar"
         },
-        "h3": "Murat Uyar"
+        "h3": "Murat Uyar",
+        "information": "3.Kademe"
       },
       {
         "id": 15,
@@ -471,7 +541,8 @@
           "height": 1223,
           "alt": "Mehmet Dalkıran"
         },
-        "h3": "Mehmet Dalkıran"
+        "h3": "Mehmet Dalkıran",
+        "information": "1.Kademe"
       }
     ]
   },
@@ -519,7 +590,8 @@
           "height": 1223,
           "alt": "Tolga Topalak"
         },
-        "h3": "Tolga Topalak"
+        "h3": "Tolga Topalak",
+        "information": "3.Kademe"
       },
       {
         "id": 18,
@@ -638,7 +710,8 @@
           "height": 1223,
           "alt": "Ümit Aslan"
         },
-        "h3": "Ümit Aslan"
+        "h3": "Ümit Aslan",
+        "information": " 3.Kademe"
       },
       {
         "id": 2,
@@ -648,7 +721,8 @@
           "height": 1223,
           "alt": "Gözde Kocakaya"
         },
-        "h3": "Gözde Kocakaya"
+        "h3": "Gözde Kocakaya",
+        "information": "3.Kademe "
       },
       {
         "id": 3,
@@ -658,7 +732,8 @@
           "height": 1223,
           "alt": "Mert Gerçeker"
         },
-        "h3": "Mert Gerçeker"
+        "h3": "Mert Gerçeker",
+        "information": "3.Kademe"
       }
     ]
   }

@@ -209,35 +209,126 @@
         "Topspin Tenis Akademisi'de her seviyedeki oyuncunun ihtiyaçlarını karşılayacak çeşitli programlar sunuyoruz.",
         "İster yeni başlıyor olun ister oyununuzu bir sonraki seviyeye taşımak isteyen deneyimli bir profesyonel olun, size uygun bir programımız var."
       ]
-    }
+    },
+    "coaches": [
+      {
+        "information": " "
+      },
+      {
+        "information": "3.Kademe"
+      },
+      {
+        "information": " "
+      },
+      {
+        "information": " "
+      },
+      {
+        "information": " "
+      },
+      {
+        "information": "3.Kademe"
+      },
+      {
+        "information": "3.Kademe"
+      },
+      {
+        "information": "3.Kademe "
+      },
+      {
+        "information": "3.Kademe"
+      },
+      {
+        "information": " "
+      },
+      {
+        "information": " "
+      },
+      {
+        "information": " "
+      },
+      {
+        "information": " "
+      },
+      {
+        "information": "3.Kademe"
+      },
+      {
+        "information": "1.Kademe"
+      }
+    ]
   },
   "LeagueInfo": {
     "title": "Turnuva ve Lig",
     "description": "Topspin Tenis Akademisi'nin yıl boyunca yoğun bir maç programı vardır. Oyuncularımız dünya çapındaki turnuvalarda yarışıyor ve biz her zaman onların becerilerini en iyi rekabete karşı Topspin content etmeleri için yeni ve heyecan verici fırsatlar arıyoruz.",
-    "league": {
-      "header": "TopSpin Ligi",
-      "description": [
-        "Topspin Tenis Akademisi ligi, tüm beceri seviyelerindeki tenis oyuncularının rekabet etmesi ve oyunlarını geliştirmesi için harika bir fırsattır. Ayrıca çok da eğlencelidir! Akademi sıcak ve destekleyici bir ortama sahiptir ve lig yeni insanlarla tanışmak ve arkadaş edinmek için harika bir yoldur.",
-        "Lig, benzer seviyedeki oyunculara karşı yarışarak tenis becerilerinizi geliştirmenin harika bir yoludur."
-      ],
-      "buttons": [
-        "2023 TOPSPIN BİLKENT KIŞ LİGİ",
-        "2023 TOPSPIN ÇANKAYA KIŞ LİGİ",
-        "2023 TOPSPIN YAZ BİLKENT LİGİ",
-        "2023 TOPSPIN YAZ ÇANKAYA LİGİ"
-      ]
+    "button": "DAHA FAZLA BİLGİ",
+    "cankaya": {
+      "leagues": {
+        "header": "ÇANKAYA Ligi",
+        "description": [
+          "Topspin Tenis Akademisi ligi, tüm beceri seviyelerindeki tenisçilerin rekabet etmesi ve oyunlarını geliştirmesi için harika bir fırsat. Ayrıca çok da eğlenceli! Akademinin sıcak ve destekleyici bir ortamı var ve lig yeni insanlarla tanışmak ve arkadaş edinmek için harika bir yol.",
+          "Lig, benzer seviyedeki oyunculara karşı yarışarak tenis becerilerinizi geliştirmenin harika bir yolu."
+        ],
+        "buttons": [
+          {
+            "title": "2023 TOPSPIN ÇANKAYA KIŞ LİGİ",
+            "link": "/league-information/2023-topspin-cankaya-winter-league"
+          },
+          {
+            "title": "2023 TOPSPIN YAZ ÇANKAYA LİGİ",
+            "link": "/league-information/2023-topspin-summer-cankaya-league"
+          }
+        ]
+      },
+      "tournament": {
+        "header": "ÇANKAYA Turnuva",
+        "description": [
+          "Topspin Tennis Academy'de rekabet sadece kupalar ve sıralamalarla ilgili değildir. Tutkuyu ateşlemek, sınırları zorlamak ve ömür boyu sürecek anılar oluşturmakla ilgilidir. ",
+          "Özel turnuvalarımız tam da bunu yapmak için tasarlanmış deneyimlerdir ve tüm beceri seviyelerinden oyunculara parlayacakları, bağlantı kuracakları ve sportmenliğin gerçek ruhunu keşfedecekleri bir platform sunar."
+        ],
+        "buttons": [
+          {
+            "title": "TTA 2023 TEKLER VE ÇİFTLER BAHAR TURNUVASI",
+            "link": "/league-information/tta-2023-singles-and-doubles-spring-tournament"
+          }
+        ]
+      }
     },
-    "tournament": {
-      "header": "TopSpin Turnuvası",
-      "description": [
-        "Topspin Tenis Akademisi'nde rekabet sadece kupalar ve sıralamalarla ilgili değildir. Tutkuyu ateşlemek, sınırları zorlamak ve ömür boyu sürecek anılar oluşturmakla ilgilidir.",
-        "Özel turnuvalarımız tam da bunu yapmak için tasarlanmış deneyimlerdir ve tüm beceri seviyelerinden oyunculara parlamak, bağlantı kurmak ve gerçek sportmenlik ruhunu keşfetmek için bir platform sunar."
-      ],
-      "buttons": [
-        "CUMHURİYETİN 100. YILDÖNÜMÜ",
-        "2023 TOPSPIN BILKENT SONBAHAR TEKLER TURNUVASI",
-        "TTA 2023 TEKLER VE ÇİFTLER BAHAR TURNUVASI"
-      ]
+    "bilkent": {
+      "leagues": {
+        "header": "BILKENT Ligi",
+        "description": [
+          "Topspin Tenis Akademisi ligi, tüm beceri seviyelerindeki tenisçilerin rekabet etmesi ve oyunlarını geliştirmesi için harika bir fırsat. Ayrıca çok da eğlenceli! Akademinin sıcak ve destekleyici bir ortamı var ve lig yeni insanlarla tanışmak ve arkadaş edinmek için harika bir yol.",
+          "Lig, benzer seviyedeki oyunculara karşı yarışarak tenis becerilerinizi geliştirmenin harika bir yolu."
+        ],
+        "buttons": [
+          {
+            "title": "2023 TOPSPIN BİLKENT KIŞ LİGİ",
+            "link": "/league-information/2023-topspin-bilkent-winter-league"
+          },
+          {
+            "title": "2023 TOPSPIN YAZ BİLKENT LİGİ",
+            "link": "/league-information/2023-topspin-summer-bilkent-league"
+          }
+        ]
+      },
+      "tournament": {
+        "header": "BILKENT Turnuva",
+        "description": [
+          "Topspin Tennis Academy'de rekabet sadece kupalar ve sıralamalarla ilgili değildir. Tutkuyu ateşlemek, sınırları zorlamak ve ömür boyu sürecek anılar oluşturmakla ilgilidir. ",
+          "Özel turnuvalarımız tam da bunu yapmak için tasarlanmış deneyimlerdir ve tüm beceri seviyelerinden oyunculara parlayacakları, bağlantı kuracakları ve sportmenliğin gerçek ruhunu keşfedecekleri bir platform sunar."
+        ],
+        "buttons": [
+          {
+            "title": "CUMHURİYETİN 100. YILDÖNÜMÜ",
+            "link": "/league-information/100th-anniversary-of-the-republic"
+          },
+          {
+            "title": "2023 TOPSPIN BILKENT SONBAHAR TEKLER TURNUVASI",
+            "link": "/league-information/2023-topspin-bilkent-autumn-singles-tournament"
+          }
+        ]
+      }
     },
     "infoSection": [
       {
@@ -325,9 +416,9 @@
         {
           "id": 1,
           "Image": {
-            "src": "/images/managers/Yılmaz Gültekin(Sponsorluk ve Tesisler Sorumlusu).png",
-            "width": 386,
-            "height": 409,
+            "src": "/images/managers/Yılmaz Gültekin(Sponsorluk ve Tesisler Sorumlusu).jpeg",
+            "width": 1239,
+            "height": 1549,
             "alt": "Yılmaz Gültekin(Sponsorluk ve Tesisler Sorumlusu)"
           },
           "h3": "Yılmaz Gültekin",
@@ -336,9 +427,9 @@
         {
           "id": 2,
           "Image": {
-            "src": "/images/managers/Demirhan Şerefhan(Başkan Yardımcısı).png",
-            "width": 391,
-            "height": 519,
+            "src": "/images/managers/Demirhan Şerefhan(Başkan Yardımcısı).jpeg",
+            "width": 738,
+            "height": 922,
             "alt": "Demirhan Şerefhan(Başkan Yardımcısı)"
           },
           "h3": "Demirhan Şerefhan",
@@ -347,9 +438,9 @@
         {
           "id": 3,
           "Image": {
-            "src": "/images/managers/Umut Cankurtaran(Senior Tenis Sorumlusu).png",
-            "width": 386,
-            "height": 453,
+            "src": "/images/managers/Umut Cankurtaran(Senior Tenis Sorumlusu).jpeg",
+            "width": 1393,
+            "height": 1741,
             "alt": "Umut Cankurtaran(Senior Tenis Sorumlusu)"
           },
           "h3": "Umut Cankurtaran",
@@ -364,14 +455,14 @@
             "alt": "İsmail Geliç(Genel Başkan)"
           },
           "h3": "İsmail Geliç",
-          "job": "Genel Başkan"
+          "job": "Yönetim Kurulu Başkanı"
         },
         {
           "id": 5,
           "Image": {
             "src": "/images/managers/Murat Cündoğlu.jpeg",
-            "width": 1152,
-            "height": 2048,
+            "width": 1088,
+            "height": 1360,
             "alt": "Murat Cündoğlu(Secretary General)"
           },
           "h3": "Murat Cündoğlu",
@@ -380,9 +471,9 @@
         {
           "id": 6,
           "Image": {
-            "src": "/images/managers/Ozan Çetiner(Kamu İşleri ve Sporcu Gelişimi Sorumlusu).png",
-            "width": 349,
-            "height": 409,
+            "src": "/images/managers/Ozan Çetiner(Kamu İşleri ve Sporcu Gelişimi Sorumlusu).jpeg",
+            "width": 978,
+            "height": 1222,
             "alt": "Ozan Çetiner(Kamu İşleri ve Sporcu Gelişimi Sorumlusu)"
           },
           "h3": "Ozan Çetiner",
@@ -392,8 +483,8 @@
           "id": 7,
           "Image": {
             "src": "/images/managers/Bülent Ay(Genel Sekreter).jpeg",
-            "width": 900,
-            "height": 1600,
+            "width": 995,
+            "height": 1244,
             "alt": "Bülent Ay(Genel Sekreter)"
           },
           "h3": "Bülent Ay",
@@ -508,7 +599,7 @@
       "Büyüyen topluluğumuza uyum sağlamak ve oyuncu gelişimini artırmak için Topspin Akademisi, [Genişletmeyi veya eklemeyi açıklayın] ile tesislerinin genişletildiğini duyurmaktan heyecan duyuyor. Bu, oyuncuların en üst düzeyde antrenman yapmaları ve rekabet etmeleri için daha fazla fırsat sağlayacaktır.",
       "Topspin Tenis Akademisi'nden daha heyecan verici haberler ve güncellemeler için bizi takip etmeye devam edin!"
     ],
-    "button": "ANALDIM"
+    "button": "Anladım"
   },
   "Association": {
     "title": "TopSpin Tenis Gençlik ve Spor Kulübü Derneği",
@@ -2354,8 +2445,8 @@
       },
       "court": {
         "header": "Kort Rezervasyonu",
-        "firstLink": "TopSpin Çankaya",
-        "secondLink": "TopSpin Bilkent"
+        "firstLink": "Topspin Çankaya",
+        "secondLink": "Topspin Bilkent"
       },
       "helpfulLinks": {
         "header": "FAYDALI BAĞLANTILAR",

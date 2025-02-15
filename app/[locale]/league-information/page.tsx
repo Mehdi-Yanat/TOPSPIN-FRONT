@@ -1,10 +1,11 @@
 import BannerImage from "@/app/components/bannerImage/bannerImage";
-import LeagueTournament from "@/app/components/leagueTournament/LeagueTournament";
 import NavBar from "@/app/components/navbar/NavBar";
-import TournamentComponent from "@/app/components/tournament/tournamentComponent";
 import { useTranslations } from "next-intl";
 import { getTranslator, unstable_setRequestLocale } from "next-intl/server";
+import Image from "next/image";
+import Link from "next/link";
 import React from "react";
+import classes from "../../styles/league.module.scss";
 
 export async function generateMetadata({
   params: { locale },
@@ -23,8 +24,6 @@ function Page({ params }: { params: any }) {
   unstable_setRequestLocale(params.locale);
   const t = useTranslations("LeagueInfo");
 
-
-
   return (
     <>
       <NavBar
@@ -37,12 +36,46 @@ function Page({ params }: { params: any }) {
         }}
         lang={params.locale}
       />
-      <LeagueTournament
-        league={t.raw("league")}
-        tournament={t.raw("tournament")}
-      />
+      <div className={classes.content}>
+        <div className={classes.containerBox}>
+          <Image
+            loading="lazy"
+            width={1197}
+            height={1007}
+            alt="Topspin Cankaya"
+            src={"/images/kjdCankaya.jpeg"}
+          />
+          <div>
+            <h2>Topspin Çankaya</h2>
+            <Link
+              className="button"
+              href={"/league-information/leagues-tournament/cankaya"}
+            >
+              {t("button")}
+            </Link>
+          </div>
+        </div>
+        <div className={classes.containerBox}>
+          <Image
+            loading="lazy"
+            width={1536}
+            height={1023}
+            alt="Topspin Cankaya"
+            src={"/images/resort1.jpeg"}
+          />
+          <div>
+            <h2>Topspin Bilkent</h2>
+            <Link
+              className="button"
+              href={"/league-information/leagues-tournament/bilkent"}
+            >
+              {t("button")}
+            </Link>
+          </div>
+        </div>
+      </div>
       {/*<TournamentComponent translated={t.raw("tournaments")} />*/}
-      <BannerImage width={5472} height={3078} src="/images/footerBanner.JPG" />
+      <BannerImage width={1600} height={810} src="/images/bannerFooter(update).jpeg" />
     </>
   );
 }
