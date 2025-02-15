@@ -8,6 +8,7 @@ import data from "../../utils/pageContent.json";
 import FlickityViewPortSection from "@/app/components/professionalPlayersSection/flickityViewPortSection";
 import NavBar from "@/app/components/navbar/NavBar";
 import { SectionData, TranslatedContent } from "@/app/utils/interface";
+import { SectionData, TranslatedContent } from "@/app/utils/interface";
 
 export async function generateMetadata({
   params: { locale },
@@ -44,7 +45,45 @@ function CoachesSection({
 }
 
 function Academy() {
+function CoachesSection({
+  data,
+  transaltedData,
+}: {
+  data: any;
+  transaltedData: any;
+}) {
+  const t = useTranslations("HomePage");
+
+  return (
+    <FlickityViewPortSection
+      type="coaches"
+      H2={t("coachesSection")}
+      data={data}
+      leftButton={"leftButtonPlayers"}
+      rightButton={"rightButtonPlayers"}
+      translatedContent={transaltedData}
+    />
+  );
+}
+
+function Academy() {
   const t = useTranslations("PrivateLessons");
+
+  return (
+    <InfoSectionAcademy page={"PrivateLessons"} text={t.raw("infoSection")} />
+  );
+}
+
+function WhatsappSection() {
+  const tHomePage = useTranslations("HomePage");
+  return (
+    <div style={{ paddingTop: "50px " }}>
+      <Whatsapp translatedContent={tHomePage.raw("whatsupSection")} />
+    </div>
+  );
+}
+
+function SponsorsSection() {
 
   return (
     <InfoSectionAcademy page={"PrivateLessons"} text={t.raw("infoSection")} />
@@ -111,6 +150,8 @@ async function Page({ params }: { params: any }) {
         data={data.homepage.coaches}
         transaltedData={data.homepage.coaches}
       />
+      <WhatsappSection />
+      <SponsorsSection />
       <WhatsappSection />
       <SponsorsSection />
     </>

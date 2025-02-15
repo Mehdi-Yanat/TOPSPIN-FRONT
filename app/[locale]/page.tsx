@@ -15,6 +15,12 @@ import {
   TennisJsonType,
   TranslatedContent,
 } from "../utils/interface";
+import { useQuery } from "@tanstack/react-query";
+import {
+  SectionData,
+  TennisJsonType,
+  TranslatedContent,
+} from "../utils/interface";
 
 export async function generateMetadata({
   params: { locale },
@@ -28,6 +34,83 @@ export async function generateMetadata({
     description: t("description"),
   };
 }
+function InfoSectionWithIndex({
+  data,
+  locale,
+  index,
+}: {
+  data: any;
+  locale: any;
+  index: number;
+}) {
+  const t = useTranslations("HomePage");
+  return (
+    <InfoSection
+      data={data.homepage.infoSection[index]}
+      rowReverser={false}
+      maxWidthH3={index === 2 ? false : true}
+      translatedContent={t.raw("infoSection")[index]}
+      locale={locale}
+    />
+  );
+}
+
+function InfoSectionWithIndexAndYoutube({
+  data,
+  locale,
+  index,
+}: {
+  data: any;
+  locale: any;
+  index: number;
+}) {
+  const t = useTranslations("HomePage");
+  return (
+    <InfoSection
+      data={data.homepage["infoSection"][index]}
+      rowReverser={false}
+      maxWidthH3={true}
+      translatedContent={t.raw("infoSection")[index]}
+      locale={locale}
+      isYoutube={true}
+    />
+  );
+}
+
+function Quote_() {
+  const t = useTranslations("HomePage");
+
+  return <Quote translatedContent={t("quote")} />;
+}
+
+function Pages() {
+  const t = useTranslations("HomePage");
+
+  return <FlickityViewPort data={t.raw("flickityView")} />;
+}
+
+function PlayersSection({ data }: { data: any }) {
+  const t = useTranslations("HomePage");
+
+  return (
+    <FlickityViewPortSection
+      type="players"
+      H2={t("proPlayerSection")}
+      data={data.homepage.players}
+      leftButton={"leftButtonPlayers"}
+      rightButton={"rightButtonPlayers"}
+      translatedContent={t.raw("coaches")}
+    />
+  );
+}
+
+function CoachesSection({
+  data,
+  transaltedData,
+}: {
+  data: any;
+  transaltedData: any;
+}) {
 function InfoSectionWithIndex({
   data,
   locale,
